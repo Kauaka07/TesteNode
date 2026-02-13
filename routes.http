@@ -1,0 +1,38 @@
+
+POST http://localhost:3333/videos 
+Content-Type: application/json
+
+{
+  "title": "Video do kauaka",
+  "description": "Descrição do video do kauaka.",
+  "duration": 120
+}
+// post = posta os videos, ou seja, cria um novo video
+
+
+###
+
+GET http://localhost:3333/videos 
+
+// get = buscar os videos, ou seja, lista os videos
+
+###
+
+PUT http://localhost:3333/videos/75fd396a-2d32-4621-9620-61850c2c4b58
+Content-Type: application/json
+
+{
+  "title": "Video do silva kauaka",
+  "description": "Descrição do video do kauaka.",
+  "duration": 120
+}
+
+// put = atualiza os videos, ou seja, edita um video existente
+
+###
+
+DELETE http://localhost:3333/videos/75fd396a-2d32-4621-9620-61850c2c4b58
+
+// delete = deleta um video existente
+
+//sempre que usar o send request, deixar a primeira linha em branco, para evitar que de erro.
