@@ -12,14 +12,14 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos?search=node
+GET http://localhost:3333/videos
 
 // get = buscar os videos, ou seja, lista os videos
 // o search é uma query, ou seja, um filtro para buscar os videos que tem a palavra node no titulo ou descrição
 // adicionar "?search=node" na url para buscar os videos que tem a palavra node no titulo ou descrição
 ###
 
-PUT http://localhost:3333/videos/75fd396a-2d32-4621-9620-61850c2c4b58
+PUT http://localhost:3333/videos/fd376e91-1cf0-4b7a-b0d0-5b41b45a8a63
 Content-Type: application/json
 
 {
@@ -32,7 +32,7 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/75fd396a-2d32-4621-9620-61850c2c4b58
+DELETE http://localhost:3333/videos/fd376e91-1cf0-4b7a-b0d0-5b41b45a8a63
 
 // delete = deleta um video existente
 
